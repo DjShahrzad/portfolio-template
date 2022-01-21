@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shahrzad Jalali's Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex p-1">
+            <h1 class="logo md">  Welcome to Shahrzad Jalali's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="features.html"> About </a></li>
+                    <li><a href="docs.html"> Projects/Resume </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- Showcase -->
+    <section class="showcase p-1">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Full Stack Developer </h1>
+                <p> Feel free to browse around my site to learn more, or </p>
+                <p> fill out the form to Contact Me As Soon As Possible. </p>
+                <a href="features.html" class="btn btn-outline">About Me...</a>
+            </div>
+
+            <div class="showcase-form card p-3 m-2">
+                <h2> CONTACT NOW: </h2>
+                    <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
+                        <p class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        <div class="form-control">
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="company" placeholder="Company Name" required>
+                        </div>
+                        <div class="form-control">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <input type="submit" value="Send" class="btn btn-primary">
+                    </form>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <!-- Languages -->
+    <section class="languages p-2 m-3">
+        <br>
+        <h2 class="lg text-center p-2">
+            PROGRAMMING SKILLS SET:
+        </h2>
+        <div class="container flex"> 
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png" alt="">
+              </div>
+              <div class="card">
+                <h4>C#</h4>
+                <img src="images/logos/csharp.png" alt="">
+              </div>
+              <div class="card">
+                <h4>REACT</h4>
+                <img src="images/logos/64px-react_react native_icon.png" alt="">
+              </div>
+              <div class="card">
+                <h4>HTML</h4>
+                <img src="images/logos/html.png" alt="">
+              </div>
+              <div class="card">
+                <h4>CSS</h4>
+                <img src="images/logos/css.png" alt="">
+              </div>
+              <div class="card">
+                <h4>JavaScript</h4>
+                <img src="images/logos/javascript.png" alt="">
+              </div>
+              <div class="card">
+                <h4>Node.js</h4>
+                <img src="images/logos/node.png" alt="">
+            </div>
+              <div class="card">
+                <h4>JQuery</h4>
+                <img src="images/logos/64px_jquery_js_library_icon.png" alt="">
+              </div>
+              <div class="card">
+                <h4>SQL</h4>
+                <img src="images/logos/64px-sql_file_icon .png" alt="">
+              </div>
+              <div class="card">
+                <h4>MySQL</h4>
+                <img src="images/logos/64px_mysql_icon.png" alt="">
+              </div>
+              <div class="card">
+                <h4>MongoDB</h4>
+                <img src="images/logos/64px_mongodb_programming_icon.png" alt="">
+              </div>
+        </div>
+    </section>
+      
+    <!-- Cloud -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">AWS Cloud Hosting</h2>
+                <p class="lead my-1">Amazon Web Services. Well experienced in AWS Deployments that are fast, reliable, and scalable.</p>
+                <a href="https://aws.amazon.com/?nc2=h_lg" class="btn btn-dark">Read More about AWS</a>
+            </div>
+            <img src="images/cloud.png" alt="">
+        </div>
+    </section>
+       
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>Full-Stack Progamming</h3>
+                    <p class="text-secondary"></p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>Deploying</h3>
+                    <p class="text-secondary"></p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>Machine Learning</h3>
+                    <p class="text-secondary"></p>
+                </div>
+            </div>
+            <h3 class="stats-heading text-center my-1">
+                Deploying web apps of all kinds, from large scale enterprise API's and RESTful API's, to Static and Dynamic Websites, and 
+                Certified from Berkeley in Artificial Intelligence (ML) Implementation into a Company or Business.
+            </h3>
+        </div>
+    </section>
+    <br>
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container flex">
+            <div class="p-3 m-3">
+                <h1>Shahrzad Jalali
+                </h1>
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <div class="ul p-3 m-3">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">About</a></li>
+                        <li><a href="docs.html">Skills/Projects</a></li>
+                    </ul>
+                </nav>
+            </div>    
+            <div class="social p-3 m-3">
+                <a href="https://github.com/DjShahrzad"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
